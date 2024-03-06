@@ -1,0 +1,69 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #3B4664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #252D44;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* for calculator button , these are present in calculator div inside form  */
+.calculator form input{
+    border: 1;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+   font-size: 25px;
+    background: #EAE3DB;
+ 
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    background:#00000033;
+    display: flex;
+    justify-content: flex-end;
+   
+   
+}
+ 
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    background-color: #00000033 ;
+    color: aliceblue;
+}
+
+form input.reset{
+    width: 145px;
+    background: #647299;
+
+}
+
+form input.equal{
+    width: 145px;
+    background: #D13F30;
+
+}
+
+form input#del{
+    background: #647299;
+
+}
+
+
+#heading{
+  
+    color: antiquewhite;
+}
